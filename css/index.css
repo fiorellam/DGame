@@ -1,0 +1,75 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Shadows+Into+Light|Varela+Round');
+</style>
+body{
+	margin:0;
+}
+h1{
+	font-size: 55px;
+	color: #FFFFFF;
+}
+#titulo{
+	padding-top:95px;
+	padding-bottom: 150px;
+}
+#titulo1{
+	font-family: 'Quicksand', sans-serif;
+}
+#titulo2{
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.button{
+	position: relative;
+	left: 505px;
+	background-color: #FFD423;
+	border: none;
+	font-size: 25px;
+	padding: 20px;
+	width: 320px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 1.9s;
+    overflow: hidden;
+    cursor: pointer;
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 20px;
+
+}
+.button:after {
+    content: "";
+    background: #F7C90E;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+
+}
+
+.button:hover:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+}
+a{
+	color: #000000;
+	text-decoration:none;
+}
+a:hover{
+	color: #000000;
+}
+
+label{
+	font-size: 20px;
+	padding-left:20px;
+}
+footer{
+	position: fixed;
+	top:639px;
+	color:#000000;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+	background-color: #ffffff;
